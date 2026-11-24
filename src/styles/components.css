@@ -51,8 +51,9 @@
 }
 
 .btn-lg {
-  padding: 0.875rem 1.75rem;
+  padding: 0.875rem 1.5rem;
   font-size: var(--text-base);
+  border-radius: var(--radius-lg);
 }
 
 .btn-icon {
@@ -101,7 +102,7 @@
 .textarea:focus {
   outline: none;
   border-color: var(--color-royal-blue);
-  box-shadow: 0 0 0 3px rgba(51, 78, 172, 0.15);
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.15);
 }
 
 .label {
@@ -152,6 +153,7 @@
 .page-title {
   font-size: var(--text-2xl);
   font-weight: 600;
+  color: var(--color-deep-navy);
 }
 
 .page-subtitle {

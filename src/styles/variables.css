@@ -1,28 +1,25 @@
 :root {
-  /* Midnight Emerald palette */
-  --color-deep-navy: #0B1F1A;        /* Deep forest black-green */
-  --color-royal-blue: #0F766E;       /* Rich teal */
-  --color-muted-blue: #5EEAD4;       /* Soft mint */
-  --color-pale-blue: #CCFBF1;        /* Very light mint */
-  --color-very-pale-blue: #F0FDFA;   /* Near-white mint */
+  /* Clean light palette — matches first screenshot */
+  --color-deep-navy: #0B1F1A;
+  --color-royal-blue: #0F766E;
+  --color-muted-blue: #5B8A82;
+  --color-pale-blue: #CCFBF1;
+  --color-very-pale-blue: #F0FDFA;
   --color-near-white: #F8FFFE;
 
-  /* Semantic */
-  --color-bg: var(--color-near-white);
+  --color-bg: #F0FDFA;
   --color-surface: #FFFFFF;
-  --color-border: #CCFBF1;
+  --color-border: #D1FAE5;
   --color-text-primary: #0B1F1A;
   --color-text-secondary: #0F766E;
   --color-text-muted: #5B8A82;
-  --color-text-inverse: #F8FFFE;
+  --color-text-inverse: #FFFFFF;
   --color-accent: #0F766E;
   --color-accent-hover: #0D5C56;
   --color-success: #059669;
   --color-warning: #D97706;
   --color-danger: #DC2626;
-  --color-info: #0284C7;
 
-  /* Spacing */
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
@@ -32,17 +29,14 @@
   --space-8: 32px;
   --space-12: 48px;
 
-  /* Radius */
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 14px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
   --radius-full: 9999px;
 
-  /* Shadows */
-  --shadow-sm: 0 1px 2px rgba(11, 31, 26, 0.06);
+  --shadow-sm: 0 1px 3px rgba(11, 31, 26, 0.06);
   --shadow-md: 0 4px 12px rgba(11, 31, 26, 0.08);
 
-  /* Typography */
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
@@ -51,11 +45,9 @@
   --text-xl: 1.25rem;
   --text-2xl: 1.5rem;
 
-  /* Layout */
   --sidebar-width: 260px;
   --sidebar-collapsed: 72px;
   --header-height: 56px;
   --bottom-nav-height: 64px;
-
   --transition-fast: 150ms ease;
 }
