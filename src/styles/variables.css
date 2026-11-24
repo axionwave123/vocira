@@ -1,24 +1,28 @@
 :root {
-  --color-deep-navy: #081F5C;
-  --color-royal-blue: #334EAC;
-  --color-muted-blue: #7096D1;
-  --color-pale-blue: #D0E3FF;
-  --color-very-pale-blue: #E7F1FF;
-  --color-near-white: #F9FCFF;
+  /* Midnight Emerald palette */
+  --color-deep-navy: #0B1F1A;        /* Deep forest black-green */
+  --color-royal-blue: #0F766E;       /* Rich teal */
+  --color-muted-blue: #5EEAD4;       /* Soft mint */
+  --color-pale-blue: #CCFBF1;        /* Very light mint */
+  --color-very-pale-blue: #F0FDFA;   /* Near-white mint */
+  --color-near-white: #F8FFFE;
 
+  /* Semantic */
   --color-bg: var(--color-near-white);
   --color-surface: #FFFFFF;
-  --color-border: #D0E3FF;
-  --color-text-primary: #081F5C;
-  --color-text-secondary: #334EAC;
-  --color-text-muted: #7096D1;
-  --color-text-inverse: #F9FCFF;
-  --color-accent: var(--color-royal-blue);
-  --color-accent-hover: #2a3f8f;
-  --color-success: #0d9488;
-  --color-warning: #d97706;
-  --color-danger: #dc2626;
+  --color-border: #CCFBF1;
+  --color-text-primary: #0B1F1A;
+  --color-text-secondary: #0F766E;
+  --color-text-muted: #5B8A82;
+  --color-text-inverse: #F8FFFE;
+  --color-accent: #0F766E;
+  --color-accent-hover: #0D5C56;
+  --color-success: #059669;
+  --color-warning: #D97706;
+  --color-danger: #DC2626;
+  --color-info: #0284C7;
 
+  /* Spacing */
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
@@ -28,14 +32,17 @@
   --space-8: 32px;
   --space-12: 48px;
 
+  /* Radius */
   --radius-sm: 6px;
   --radius-md: 10px;
   --radius-lg: 14px;
   --radius-full: 9999px;
 
-  --shadow-sm: 0 1px 2px rgba(8, 31, 92, 0.06);
-  --shadow-md: 0 4px 12px rgba(8, 31, 92, 0.08);
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(11, 31, 26, 0.06);
+  --shadow-md: 0 4px 12px rgba(11, 31, 26, 0.08);
 
+  /* Typography */
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
@@ -44,6 +51,7 @@
   --text-xl: 1.25rem;
   --text-2xl: 1.5rem;
 
+  /* Layout */
   --sidebar-width: 260px;
   --sidebar-collapsed: 72px;
   --header-height: 56px;
