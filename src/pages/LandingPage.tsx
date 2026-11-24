@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Mic, Captions, Brain, ArrowRight, Check } from 'lucide-react'
+import { Mic, Captions, Brain, ArrowRight } from 'lucide-react'
 
 export default function LandingPage() {
   return (
