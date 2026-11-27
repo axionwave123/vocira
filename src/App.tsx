@@ -9,7 +9,7 @@ import LivePage from './pages/LivePage'
 import BrainPage from './pages/BrainPage'
 import ConversationsPage from './pages/ConversationsPage'
 import SettingsPage from './pages/SettingsPage'
-import SignInPage from './pages/SignInPage'
+import SignInPage from './pages/auth/SignInPage'
 
 export default function App() {
   return (

@@ -1,9 +1,7 @@
-import { Outlet, NavLink, useLocation } from 'react-router-dom'
+import { Outlet, NavLink } from 'react-router-dom'
 import { Home, Mic, Languages, FileText, Settings } from 'lucide-react'
 
 export default function AppLayout() {
-  const location = useLocation()
-
   const nav = [
     { to: '/app', icon: Home, label: 'Home', end: true },
     { to: '/live', icon: Mic, label: 'Listen' },

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { ArrowRight, Mic, Volume2, Brain, Check } from 'lucide-react'
+import { ArrowRight, Mic, Languages, Brain, Check } from 'lucide-react'
 
 const STEPS = ['welcome', 'language', 'how', 'permissions', 'provider', 'done'] as const
 
@@ -34,7 +34,6 @@ export default function OnboardingPage() {
       maxWidth: 420,
       margin: '0 auto'
     }}>
-      {/* Progress dots */}
       <div style={{ display: 'flex', gap: 6, justifyContent: 'center', marginBottom: 32 }}>
         {STEPS.map((_, i) => (
           <div key={i} style={{
@@ -111,8 +110,7 @@ export default function OnboardingPage() {
               background: 'linear-gradient(145deg, #1E3A5F, #0F172A)',
               margin: '0 auto 28px',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
-              boxShadow: '0 12px 32px rgba(15,23,42,0.25)',
-              position: 'relative', overflow: 'hidden'
+              boxShadow: '0 12px 32px rgba(15,23,42,0.25)'
             }}>
               <div style={{
                 width: 48, height: 48, borderRadius: '50%',
@@ -187,7 +185,7 @@ export default function OnboardingPage() {
                   textAlign: 'left'
                 }}>
                   <div>
-                    <div style={{ fontWeight: 600, fontSize: 14, displayItems: 'center', gap: 8, display: 'flex' }}>
+                    <div style={{ fontWeight: 600, fontSize: 14, alignItems: 'center', gap: 8, display: 'flex' }}>
                       {p.name}
                       {p.badge && <span className="badge">{p.badge}</span>}
                     </div>
@@ -218,7 +216,6 @@ export default function OnboardingPage() {
         )}
       </div>
 
-      {/* Actions */}
       <div style={{ marginTop: 32 }}>
         {current === 'permissions' ? (
           <>
